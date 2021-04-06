@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/cbse/helloworld/Bundle.proper
+ ties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20210309
+OpenIDE-Module-Build-Version: 202103091424
+OpenIDE-Module: dk.sdu.cbse.HelloWorld
+OpenIDE-Module-Public-Packages: dk.sdu.cbse.helloworld.*
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+OpenIDE-Module-Display-Category: dk.sdu.cbse
+OpenIDE-Module-Name: HelloWorld
+OpenIDE-Module-Short-Description: <undefined>
+OpenIDE-Module-Long-Description: <undefined>
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.33
+
