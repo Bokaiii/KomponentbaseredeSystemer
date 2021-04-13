@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: dk/sdu/mmmi/cbse/astroid2/Bundle.properties
+
