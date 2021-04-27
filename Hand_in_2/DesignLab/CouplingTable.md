@@ -1,5 +1,6 @@
 # Coupling Table
 
+Coupling table for IntroLab
 | NUMBER | CLASS              | DEPENDS ON                                     | DEPENDENCY DEPTH |
 | ------ |:-------------------| :----------------------------------------------|-----------------:|
 | 1      | GameKeys           |                                                |                0 |
@@ -24,19 +25,20 @@ Da GameStateManager fører tilbage til PlayState er denne dependency cyklisk.
 
 # Dependency Analysis
 
-| NUMBER | CLASS                       | DEPENDS ON                                     | DEPENDENCY DEPTH |
-| ------ |:----------------------------| :----------------------------------------------|-----------------:|
-| 1      | SilentUpdate                |                                                |                0 |
-| 2      | Common                      |                                                |                0 |
-| 3      | AsteroidsNetbeansModule-app | SilentUpdate                                   |                1 |
-| 4      | Collision                   | Common                                         |                1 |
-| 5      | CommonAsteroid              | Common                                         |                1 |
-| 6      | CommonBullet                | Common                                         |                1 |
-| 7      | CommonEnemy                 | Common                                         |                1 |
-| 8      | Core                        | Common                                         |                1 |
-| 9      | Asteroid                    | Common, CommonAsteroids                        |                2 |
-| 10     | Asteroid2                   | Common, CommonAsteroids                        |                2 |
-| 11     | Bullet                      | Common, CommonBullet                           |                2 |
-| 12     | Enemy                       | Common, CommonEnemy                            |                2 |
-| 13     | Player                      | Common, CommonBullet                           |                2 |
+Dependency analysis (coupling table) for NetBeansLab project.
+| NUMBER | CLASS                       | DEPENDS ON              | DEPENDENCY DEPTH |
+| ------ |:----------------------------| :-----------------------|-----------------:|
+| 1      | SilentUpdate                |                         |                0 |
+| 2      | Common                      |                         |                0 |
+| 3      | AsteroidsNetbeansModule-app | SilentUpdate            |                1 |
+| 4      | Collision                   | Common                  |                1 |
+| 5      | CommonAsteroid              | Common                  |                1 |
+| 6      | CommonBullet                | Common                  |                1 |
+| 7      | CommonEnemy                 | Common                  |                1 |
+| 8      | Core                        | Common                  |                1 |
+| 9      | Asteroid                    | Common, CommonAsteroids |                2 |
+| 10     | Asteroid2                   | Common, CommonAsteroids |                2 |
+| 11     | Bullet                      | Common, CommonBullet    |                2 |
+| 12     | Enemy                       | Common, CommonEnemy     |                2 |
+| 13     | Player                      | Common, CommonBullet    |                2 |
 
